@@ -1,0 +1,179 @@
+
+body{
+	margin: 0 0 0 0;
+	border:0;
+	font-family: Montserrat-black,Ubuntu,sans-serif;
+}
+
+/*navbar Section*/
+
+.navbar{
+	background-color: #ff4c68;
+	padding:  0 0 5% 5% ;
+}
+
+.navbar-brand{
+	font-family: Ubuntu;
+	font-size: 2.1rem;
+	font-weight: bold;
+}
+.nav-item{
+	font-family: Montserrat-Light,Ubuntu,sans-serif;
+	padding: 0 15px;
+}
+.nav-link{
+	font-size: 1.2rem;
+}
+
+/*title Section*/
+
+#title{
+	background-color: #ff4c68;
+}
+
+.container-fluid{
+	padding:3% 12% 4.5%;
+}
+h1{
+	font-family: Montserrat,Ubuntu,sans-serif;
+	font-size: 3rem;
+	line-height: 1.5;
+	padding: 10% 7% 7% ;
+	color: #ffff
+}
+
+.download-button{
+	 margin: 4% 0 5% 6%;
+
+}
+
+
+.dog-image{
+	transform: rotate(25deg);
+	width: 23%;
+	position: absolute;
+	left: 50%;
+}
+
+/*features Section*/
+
+#Features{
+	padding: 7% 15%;
+	background-color: white;
+	position: relative;
+	z-index: 1
+
+}
+
+.features-box{
+	padding: 0 5%;
+	text-align: center;
+}
+h3{
+	font-family: Montserrat,Ubuntu,sans-serif;
+}
+p{
+	color: grey;
+}
+.icons{
+	font-size: 60px;
+	margin-bottom: 1rem;
+	color: #ef8172;
+}
+.icons:hover{
+	color: #ff4c68;
+}
+
+/* Testimonial Section*/
+
+#testimonials{
+	background-color: #ef8172;
+	text-align: center;
+	color: white;
+}
+
+h2{
+	font-family: Montserrat,Ubuntu,sans-serif;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.testimonial-image{
+	width: 10%;
+	border-radius: 100%;
+	margin:3%;
+}
+
+.carousel-item{
+	padding: 7% 15%;
+	text-align: center;
+}
+
+/*Press Section*/
+
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3#;
+
+}
+.press-image{
+	margin: 20px 20px 50px;
+	width: 15%;
+}
+
+/*Pricing Section*/
+
+#pricing{
+	padding:5% 10%;
+	text-align: center;
+
+}
+.card{
+	text-align: center;
+}
+
+.pricing-column{
+	padding: 50px 15px;
+}
+
+@media (max-width:992px){
+	#title{
+		text-align: center;
+	}
+	h1{
+		font-size: 2rem;
+	}
+	.dog-image{
+		width: 50%;
+		transform: rotate(0deg);
+		position: static;
+	}
+}
+
+/*Call to Action */
+
+#cta{
+	padding: 7% 15%;
+	background-color: #ff4c68;
+	text-align: center;
+	color: white;
+
+}
+.cta-heading{
+	font-size: 3.5rem;
+	line-height: 1.5
+	padding: 0 0 7%;
+}
+
+.cta-button{
+	margin:40px 15px;
+}
+/* Footer SEction */
+#footer{
+	text-align: center;
+	padding: 7% 15%;
+}
+.footer-icons{
+	margin: 20px 10px;
+}
